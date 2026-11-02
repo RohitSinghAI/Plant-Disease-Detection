@@ -1,3 +1,4 @@
+%%writefile .gitignore
 venv/
 __pycache__/
 .ipynb_checkpoints/
@@ -5,5 +6,7 @@ __pycache__/
 .env
 kaggle.json
 PlantVillage/
+dataset/
 *.keras
 *.h5
+*.joblib
